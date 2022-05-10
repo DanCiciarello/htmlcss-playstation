@@ -1,0 +1,10 @@
+/* Debug */
+
+.debug-red {
+    border: 1px dashed red;
+    height: 100%;
+}
+
+.debug-black {
+    border: 1px dashed black;
+}

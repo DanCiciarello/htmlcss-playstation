@@ -1,0 +1,50 @@
+/*--------*/
+/* Navbar */
+/*--------*/
+
+.cd-nav-top {
+    background-color: #000000;
+    height: 30px;
+    padding: 8px;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 5px;
+}
+
+.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+.cd-nav-search {
+    height: 20px;
+}
+
+.cd-nav-arrow {
+    height: 10px;
+}
+
+
+/*------*/
+/* Hero */
+/*------*/
+
+.cd-hero-bg {
+    height: 70vh;
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center top;
+}
+
+.cd-hero-bg .container {
+    height: 100%;
+}
+
+.cd-hero-content {
+    height: 100%;
+    padding: 3rem 0;
+}
+
+.cd-returnal-logo {
+    max-width: 200px;
+}

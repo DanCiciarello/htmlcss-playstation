@@ -34,9 +34,16 @@
 
 .cd-hero-bg {
     height: 65vh;
-    background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center top;
+}
+
+#cd-hero-returnal {
+    background-image: url('../img/jumbo-bg.png');
+}
+
+#cd-hero-ittakestwo {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
 
 .cd-hero-bg .container {
@@ -59,4 +66,8 @@
 
 .cd-playstation-5-img {
     width: 100%;
+}
+
+.cd-playstation-5-card-img {
+    width: 50%;
 }

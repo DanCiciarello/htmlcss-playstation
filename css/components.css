@@ -13,8 +13,13 @@
 
 .card {
     border: none;
+    background-color: unset;
 }
 
 .cd-card {
     border-radius: 1rem;
+}
+
+.cd-card-text {
+    padding: 1rem 0;
 }

@@ -4,8 +4,11 @@
 
 .cd-nav-top {
     background-color: #000000;
-    height: 30px;
-    padding: 8px;
+    padding: 10px;
+}
+
+.cd-nav-top-img {
+    height: 15px;
 }
 
 .navbar-nav .nav-item {
@@ -30,7 +33,7 @@
 /*------*/
 
 .cd-hero-bg {
-    height: 70vh;
+    height: 65vh;
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center top;
@@ -47,4 +50,13 @@
 
 .cd-returnal-logo {
     max-width: 200px;
+}
+
+
+/*---------------*/
+/* Playstation 5 */
+/*---------------*/
+
+.cd-playstation-5-img {
+    width: 100%;
 }

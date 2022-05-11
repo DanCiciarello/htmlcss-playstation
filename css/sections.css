@@ -71,3 +71,25 @@
 .cd-playstation-5-card-img {
     width: 50%;
 }
+
+
+/*------------------*/
+/* Playstation Plus */
+/*------------------*/
+
+.img-absolute-block {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+
+/*-----------------*/
+/* Playstation Now */
+/*-----------------*/
+
+.cd-playstation-now-bg {
+    background-color: #161C3B;
+}

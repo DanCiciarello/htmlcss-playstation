@@ -93,3 +93,16 @@
 .cd-playstation-now-bg {
     background-color: #161C3B;
 }
+
+
+/*--------*/
+/* Footer */
+/*--------*/
+
+.cd-footer-bg {
+    background-color: #00439C;
+}
+
+.cd-footer-img {
+    width: 100px;
+}

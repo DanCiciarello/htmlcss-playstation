@@ -1,0 +1,19 @@
+/*-----------*/
+/* Hero card */
+/*-----------*/
+
+.cd-hero-card:hover {
+    padding: 2px;
+    border: 2px solid #2C83D7;
+    border-radius: 1rem;
+}
+
+
+/*--------------------*/
+/* Playstation 5 card */
+/*--------------------*/
+
+.cd-playstation-5-card:hover {
+    border-bottom: 2px solid #2C83D7;
+    opacity: 1!important;
+}

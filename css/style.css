@@ -8,3 +8,113 @@
 .debug-black {
     border: 1px dashed black;
 }
+
+
+/*--------*/
+/* Navbar */
+/*--------*/
+
+.cd-nav-top {
+    background-color: #000000;
+    padding: 10px;
+}
+
+.cd-nav-top-img {
+    height: 15px;
+}
+
+.navbar-nav .nav-item {
+    padding: 0 5px;
+}
+
+.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+.cd-nav-search {
+    height: 20px;
+}
+
+.cd-nav-arrow {
+    height: 10px;
+}
+
+
+/*------*/
+/* Hero */
+/*------*/
+
+.cd-hero-bg {
+    height: 65vh;
+    background-size: cover;
+    background-position: center top;
+}
+
+#cd-hero-returnal {
+    background-image: url('../img/jumbo-bg.png');
+}
+
+#cd-hero-ittakestwo {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+.cd-hero-bg .container {
+    height: 100%;
+}
+
+.cd-hero-content {
+    height: 100%;
+    padding: 3rem 0;
+}
+
+.cd-returnal-logo {
+    max-width: 200px;
+}
+
+
+/*---------------*/
+/* Playstation 5 */
+/*---------------*/
+
+.cd-playstation-5-img {
+    width: 100%;
+}
+
+.cd-playstation-5-card-img {
+    width: 50%;
+}
+
+
+/*------------------*/
+/* Playstation Plus */
+/*------------------*/
+
+.img-absolute-block {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+
+/*-----------------*/
+/* Playstation Now */
+/*-----------------*/
+
+.cd-playstation-now-bg {
+    background-color: #161C3B;
+}
+
+
+/*--------*/
+/* Footer */
+/*--------*/
+
+.cd-footer-bg {
+    background-color: #00439C;
+}
+
+.cd-footer-img {
+    width: 100px;
+}

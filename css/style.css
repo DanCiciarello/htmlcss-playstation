@@ -45,13 +45,13 @@
 /*------*/
 
 .cd-hero-bg {
-    height: 65vh;
     background-size: cover;
     background-position: center top;
 }
 
 #cd-hero-returnal {
     background-image: url('../img/jumbo-bg.png');
+    padding-top: 200px;
 }
 
 #cd-hero-ittakestwo {
@@ -117,4 +117,15 @@
 
 .cd-footer-img {
     width: 100px;
+}
+
+
+
+/*-------*/
+/* Bonus */
+/*-------*/
+
+.cd-hero-gradient {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 60%);;
+    height: 100%;
 }

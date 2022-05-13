@@ -12,12 +12,14 @@
 /*-------*/
 
 .card {
-    border: none;
+    padding: 2px;
+    border: 2px solid rgba(255, 255, 255, 0);
     background-color: unset;
 }
 
 .cd-card {
     border-radius: 1rem;
+    width: 100%;
 }
 
 .cd-card-text {

@@ -17,3 +17,33 @@
     border-bottom: 2px solid #2C83D7;
     opacity: 1!important;
 }
+
+
+/*--------------*/
+/* Nuove uscite */
+/*--------------*/
+
+.cd-card-shine {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 50%);
+    display: none;
+}
+
+.cd-card-animation:hover .cd-card-shine {
+    display: block;
+    animation: cd-shine-animation 3s ease-out infinite;
+}
+
+@keyframes cd-shine-animation {
+    0% {
+        background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 50%);
+    }
+    100% {
+        background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(0,212,255,0) 70%);
+    }
+}
